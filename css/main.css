@@ -840,20 +840,23 @@ noscript {
 }
 
 @media screen and (max-width: 600px) {
-	iframe {
+	iframe:not(#test){
 		width: 460px;
 		height: 260px;
 	}
 	video {
 		width: 460px;
 		height: 260px;
+	}
+	#test{
+		width: 500px;
 	}
 }
 @media screen and (max-width: 500px) {
 	h2 {
 		font-size: 20px;
 	}
-	iframe {
+	iframe:not(#test){
 		width: 360px;
 		height: 205px;
 	}
@@ -861,9 +864,12 @@ noscript {
 		width: 360px;
 		height: 205px;
 	}
+	#test{
+		width: 400px;
+	}
 }
 @media screen and (max-width: 400px) {
-	iframe {
+	iframe:not(#test){
 		width: 260px;
 		height: 150px;
 	}
@@ -877,6 +883,9 @@ noscript {
 	.conteiner h1 {
 		margin-top: 50px;
 	}
+	#test{
+		width: 300px;
+	}
 }
 @media screen and (max-width: 370px) {
 	.card {
@@ -889,3 +898,4 @@ noscript {
 .big {
 	height: 500px;
 }
+
