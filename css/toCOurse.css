@@ -240,7 +240,7 @@ article{
 	border: rgb(255, 166, 1) 2px solid;
 	padding: 10px;
 	flex-direction: column;
-	width: 40%;
+	width: 70%;
 	margin-top: 10px;
 	border-radius:15px ;
 }
@@ -249,6 +249,15 @@ article b{
 	color: black;
 }
 
+.conteiner p img{
+	width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+	.conteiner p img{
+		width: 60%;
+	}
+}
 @media screen and (max-width: 400px) {
 	.strelka {
 		width: 50px;
@@ -261,6 +270,9 @@ article b{
 		width: 30px;
 		height: 30px;
 		font-size: 30px;
+	}
+	.conteiner p img{
+		width: 70%;
 	}
 }
 
