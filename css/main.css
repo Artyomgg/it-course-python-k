@@ -839,6 +839,19 @@ noscript {
 	padding: 10px;
 }
 
+.small{
+	width: 70%;
+	margin-top: 20px;
+}
+
+
+.block-sreda{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 @media screen and (max-width: 600px) {
 	iframe:not(#test){
 		width: 460px;

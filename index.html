@@ -58,6 +58,16 @@
 				</ul>
 			</main>
 		</div>
+		<div class="block-sreda">
+			<div class="block-help-color small">
+				<a class="fancy" href="">
+					<span class="top-key"></span>
+					<span class="text">Открыть среду программирования</span>
+					<span class="bottom-key-1"></span>
+					<span class="bottom-key-2"></span>
+				</a>
+			</div>
+		</div>
 		<div class="preloader">
 			<div
 				aria-label="Orange and tan hamster running in a metal wheel"
@@ -112,6 +122,11 @@
 			})
 			document.querySelectorAll('.two li')[2].addEventListener('click', () => {
 				window.location.href = 'python-kids/test3.html'
+			})
+
+			//Открытие редактора
+			document.querySelector('.block-sreda .block-help-color a').addEventListener("click", () =>{
+				window.open('https://pythonsandbox.com/turtle',"newWindow");
 			})
 		</script>
 	</body>
