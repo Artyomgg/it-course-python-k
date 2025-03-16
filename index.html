@@ -15,6 +15,20 @@
 			href="assets/img/free-icon-graduate-5404967.png"
 			type="image/x-icon"
 		/>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-JKB0HWKRBY"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag('js', new Date())
+
+			gtag('config', 'G-JKB0HWKRBY')
+		</script>
 	</head>
 	<body>
 		<section class="top-nav">
@@ -27,8 +41,14 @@
 				<div class="menu-button"></div>
 			</label>
 			<ul class="menu">
-				<li class="active"><a href="https://it-course-six.vercel.app/">Главная</a></li>
-				<li><a href="https://it-course-six.vercel.app/assets/courses.html">Курсы</a></li>
+				<li class="active">
+					<a href="https://it-course-six.vercel.app/">Главная</a>
+				</li>
+				<li>
+					<a href="https://it-course-six.vercel.app/assets/courses.html"
+						>Курсы</a
+					>
+				</li>
 			</ul>
 		</section>
 		<h1 style="text-align: center">Python</h1>
@@ -46,7 +66,7 @@
 					<li>Среда программирования и компьютерный исполнитель</li>
 					<li>Компьютерный исполнитель</li>
 					<li><b>1 и 2 часть</b> Изучение и изменение готовых программ</li>
-					<li> Использование вспомогательных алгоритмов</li>
+					<li>Использование вспомогательных алгоритмов</li>
 				</ul>
 			</main>
 			<h2>Тесты</h2>
@@ -125,9 +145,11 @@
 			})
 
 			//Открытие редактора
-			document.querySelector('.block-sreda .block-help-color a').addEventListener("click", () =>{
-				window.open('https://pythonsandbox.com/turtle',"newWindow");
-			})
+			document
+				.querySelector('.block-sreda .block-help-color a')
+				.addEventListener('click', () => {
+					window.open('https://pythonsandbox.com/turtle', 'newWindow')
+				})
 		</script>
 	</body>
 </html>
