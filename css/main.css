@@ -56,9 +56,10 @@ ul {
 	border: 2px solid rgba(245, 245, 220, 0.717);
 	padding: 10px;
 	border-radius: 20px;
+	display: flex;
+	justify-content: center;
 }
 
-/* From Uiverse.io by cssbuttons-io */
 .fancy {
 	background-color: transparent;
 	border: 2px solid #000;
@@ -79,7 +80,7 @@ ul {
 	text-transform: none;
 	transition: all 0.3s ease-in-out;
 	user-select: none;
-	font-size: 13px;
+	font-size: 60%;
 	margin: 10px;
 }
 
@@ -797,24 +798,24 @@ noscript {
 	align-items: start;
 }
 
-.block-help img{
+.block-help img {
 	margin: 0;
-	animation:move 2s linear infinite 3s;
+	animation: move 2s linear infinite 3s;
 	transform-origin: center;
 }
 
-#courses clases img{
+#courses clases img {
 	width: 90%;
 }
 
-
-@keyframes move{
-	50%{
+@keyframes move {
+	50% {
 		transform: rotate(-20deg);
 	}
-	 75%{
+	75% {
 		transform: rotate(20deg);
-	} 100%{
+	}
+	100% {
 		transform: rotate(-20deg);
 	}
 }
@@ -839,13 +840,12 @@ noscript {
 	padding: 10px;
 }
 
-.small{
-	width: 70%;
+.small {
+	width: 40%;
 	margin-top: 20px;
 }
 
-
-.block-sreda{
+.block-sreda {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -853,7 +853,7 @@ noscript {
 }
 
 @media screen and (max-width: 600px) {
-	iframe:not(#test){
+	iframe:not(#test) {
 		width: 460px;
 		height: 260px;
 	}
@@ -861,15 +861,18 @@ noscript {
 		width: 460px;
 		height: 260px;
 	}
-	#test{
+	#test {
 		width: 500px;
+	}
+	.small{
+		width: 70%;
 	}
 }
 @media screen and (max-width: 500px) {
 	h2 {
 		font-size: 20px;
 	}
-	iframe:not(#test){
+	iframe:not(#test) {
 		width: 360px;
 		height: 205px;
 	}
@@ -877,12 +880,12 @@ noscript {
 		width: 360px;
 		height: 205px;
 	}
-	#test{
+	#test {
 		width: 400px;
 	}
 }
 @media screen and (max-width: 400px) {
-	iframe:not(#test){
+	iframe:not(#test) {
 		width: 260px;
 		height: 150px;
 	}
@@ -896,7 +899,7 @@ noscript {
 	.conteiner h1 {
 		margin-top: 50px;
 	}
-	#test{
+	#test {
 		width: 300px;
 	}
 }
@@ -906,9 +909,11 @@ noscript {
 		height: 410px;
 		font-size: 15px;
 	}
+	.small{
+		width: 80%;
+	}
 }
 
 .big {
 	height: 500px;
 }
-
