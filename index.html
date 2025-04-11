@@ -61,6 +61,12 @@
 				class="preview-img"
 			/>
 			<main>
+				<ul class="One">
+					<li>Видео</li>
+				</ul>
+			</main>
+			<h2>Уроки</h2>
+			<main>
 				<ul class="one">
 					<li>Понятие алгоритма и исполнителя</li>
 					<li>Способы записи алгоритмов</li>
@@ -163,6 +169,10 @@
 				.addEventListener('click', () => {
 					window.open('https://pythonsandbox.com/turtle', 'newWindow')
 				})
+			//Все видео
+			document.querySelector('.One li').addEventListener('click', () => {
+				window.location.href = './python-kids/videos.html'
+			})
 		</script>
 	</body>
 </html>
